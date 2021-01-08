@@ -1,0 +1,23 @@
+PODS:
+  - BOCeRouter (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - BOCeRouter (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  trunk:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  BOCeRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BOCeRouter: 3b722160e1f885c566967a77176c98413facc2c3
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 2805fd460b169aa9d0e4cf120fe8cba70b447c22
+
+COCOAPODS: 1.10.0

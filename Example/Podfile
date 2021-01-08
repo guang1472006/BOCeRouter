@@ -1,0 +1,4 @@
+use_frameworks!
+target 'BOCeRouter_Tests' do
+  pod 'BOCeRouter', :path => 'https://github.com/guang1472006/BOCeRouter.git'
+end

@@ -1,0 +1,22 @@
+{
+  "name": "BOCeRouter",
+  "version": "0.1.0",
+  "summary": "A short description of BOCeRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangwenxue/BOCeRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangwenxue": "734781246@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangwenxue/BOCeRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BOCeRouter/Classes/**/*"
+}

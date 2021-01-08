@@ -1,0 +1,6 @@
+framework module BOCeRouter {
+  umbrella header "BOCeRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
