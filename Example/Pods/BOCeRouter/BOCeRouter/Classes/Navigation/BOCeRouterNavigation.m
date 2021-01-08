@@ -35,7 +35,7 @@
 }
 
 #pragma mark - Get
-+ (id<UIApplicationDelegate>)applicationDelegate {
++ (id<UIApplicationDelegate>)applicationDelegate{
     return [UIApplication sharedApplication].delegate;
 }
 

@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		16B9B6465EB5CE7D1DA23721 /* Pods_BOCeRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635018F3D575F5258D084225 /* Pods_BOCeRouter.framework */; };
 		CA50D5D125A7F041006EA185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5D025A7F041006EA185 /* AppDelegate.m */; };
-		CA50D5D425A7F041006EA185 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5D325A7F041006EA185 /* SceneDelegate.m */; };
 		CA50D5D725A7F041006EA185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5D625A7F041006EA185 /* ViewController.m */; };
 		CA50D5DA25A7F041006EA185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA50D5D825A7F041006EA185 /* Main.storyboard */; };
 		CA50D5DC25A7F044006EA185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA50D5DB25A7F044006EA185 /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		CA50D5E225A7F044006EA185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5E125A7F044006EA185 /* main.m */; };
 		CA50D5EC25A7F044006EA185 /* BOCeRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5EB25A7F044006EA185 /* BOCeRouterTests.m */; };
 		CA50D5F725A7F044006EA185 /* BOCeRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D5F625A7F044006EA185 /* BOCeRouterUITests.m */; };
+		CA50D61F25A7FE19006EA185 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D61E25A7FE19006EA185 /* HomeViewController.m */; };
+		CA50D62825A7FE24006EA185 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D62725A7FE24006EA185 /* MyViewController.m */; };
+		CA50D63225A8021C006EA185 /* HomeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D63125A8021C006EA185 /* HomeSecondViewController.m */; };
+		CA50D63B25A808DA006EA185 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D63A25A808DA006EA185 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +45,6 @@
 		CA50D5CC25A7F041006EA185 /* BOCeRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOCeRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50D5CF25A7F041006EA185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA50D5D025A7F041006EA185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA50D5D225A7F041006EA185 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CA50D5D325A7F041006EA185 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CA50D5D525A7F041006EA185 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA50D5D625A7F041006EA185 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA50D5D925A7F041006EA185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +58,14 @@
 		CA50D5F225A7F044006EA185 /* BOCeRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BOCeRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50D5F625A7F044006EA185 /* BOCeRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCeRouterUITests.m; sourceTree = "<group>"; };
 		CA50D5F825A7F044006EA185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA50D61D25A7FE19006EA185 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CA50D61E25A7FE19006EA185 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CA50D62625A7FE24006EA185 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CA50D62725A7FE24006EA185 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CA50D63025A8021C006EA185 /* HomeSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeSecondViewController.h; sourceTree = "<group>"; };
+		CA50D63125A8021C006EA185 /* HomeSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeSecondViewController.m; sourceTree = "<group>"; };
+		CA50D63925A808DA006EA185 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CA50D63A25A808DA006EA185 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F560CD1C32163B2E5702CA9F /* Pods-BOCeRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCeRouter.debug.xcconfig"; path = "Target Support Files/Pods-BOCeRouter/Pods-BOCeRouter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +109,6 @@
 				F560CD1C32163B2E5702CA9F /* Pods-BOCeRouter.debug.xcconfig */,
 				C06DFD07DEE5428B96AF69CE /* Pods-BOCeRouter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,10 +137,11 @@
 		CA50D5CE25A7F041006EA185 /* BOCeRouter */ = {
 			isa = PBXGroup;
 			children = (
+				CA50D62C25A8009C006EA185 /* Nav */,
+				CA50D61C25A7FDD4006EA185 /* My */,
+				CA50D61B25A7FDB1006EA185 /* Home */,
 				CA50D5CF25A7F041006EA185 /* AppDelegate.h */,
 				CA50D5D025A7F041006EA185 /* AppDelegate.m */,
-				CA50D5D225A7F041006EA185 /* SceneDelegate.h */,
-				CA50D5D325A7F041006EA185 /* SceneDelegate.m */,
 				CA50D5D525A7F041006EA185 /* ViewController.h */,
 				CA50D5D625A7F041006EA185 /* ViewController.m */,
 				CA50D5D825A7F041006EA185 /* Main.storyboard */,
@@ -160,6 +169,35 @@
 				CA50D5F825A7F044006EA185 /* Info.plist */,
 			);
 			path = BOCeRouterUITests;
+			sourceTree = "<group>";
+		};
+		CA50D61B25A7FDB1006EA185 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA50D61D25A7FE19006EA185 /* HomeViewController.h */,
+				CA50D61E25A7FE19006EA185 /* HomeViewController.m */,
+				CA50D63025A8021C006EA185 /* HomeSecondViewController.h */,
+				CA50D63125A8021C006EA185 /* HomeSecondViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CA50D61C25A7FDD4006EA185 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CA50D62625A7FE24006EA185 /* MyViewController.h */,
+				CA50D62725A7FE24006EA185 /* MyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CA50D62C25A8009C006EA185 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				CA50D63925A808DA006EA185 /* BaseViewController.h */,
+				CA50D63A25A808DA006EA185 /* BaseViewController.m */,
+			);
+			path = Nav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,10 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA50D62825A7FE24006EA185 /* MyViewController.m in Sources */,
 				CA50D5D725A7F041006EA185 /* ViewController.m in Sources */,
 				CA50D5D125A7F041006EA185 /* AppDelegate.m in Sources */,
 				CA50D5E225A7F044006EA185 /* main.m in Sources */,
-				CA50D5D425A7F041006EA185 /* SceneDelegate.m in Sources */,
+				CA50D63225A8021C006EA185 /* HomeSecondViewController.m in Sources */,
+				CA50D63B25A808DA006EA185 /* BaseViewController.m in Sources */,
+				CA50D61F25A7FE19006EA185 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
