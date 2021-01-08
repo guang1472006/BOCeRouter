@@ -1,9 +1,9 @@
 {
   "name": "BOCeRouter",
-  "version": "0.1.0",
-  "summary": "A short description of BOCeRouter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhangwenxue/BOCeRouter",
+  "version": "0.0.1",
+  "summary": "zhangwenxue",
+  "description": "A Router for BOCE P2C",
+  "homepage": "https://github.com/guang1472006/BOCeRouter.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhangwenxue/BOCeRouter.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"

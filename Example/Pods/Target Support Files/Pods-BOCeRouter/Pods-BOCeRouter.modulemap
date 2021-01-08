@@ -1,0 +1,6 @@
+framework module Pods_BOCeRouter {
+  umbrella header "Pods-BOCeRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
