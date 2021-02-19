@@ -1,5 +1,11 @@
 PODS:
-  - BOCeRouter (0.0.1)
+  - BOCeRouter (0.0.2):
+    - BOCeRouter/BOCeRouterLogger (= 0.0.2)
+    - BOCeRouter/BOCeRouterNavigation (= 0.0.2)
+    - BOCeRouter/BOCeRouterRewrite (= 0.0.2)
+  - BOCeRouter/BOCeRouterLogger (0.0.2)
+  - BOCeRouter/BOCeRouterNavigation (0.0.2)
+  - BOCeRouter/BOCeRouterRewrite (0.0.2)
 
 DEPENDENCIES:
   - BOCeRouter (from `https://github.com/guang1472006/BOCeRouter.git`)
@@ -10,11 +16,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BOCeRouter:
-    :commit: d38ff0f6c830457589671d018761e7a8e2f683d7
+    :commit: 376b30c73ee54471f7be8ec21080924453e34578
     :git: https://github.com/guang1472006/BOCeRouter.git
 
 SPEC CHECKSUMS:
-  BOCeRouter: d30f9aab8eae6a74f7ef52bd931f5e8ac5b49ac0
+  BOCeRouter: 28e387a4baed9b93e564d85ee265601894ca55bb
 
 PODFILE CHECKSUM: d7e1284d2c95be37fd4a57e4a68b85183af8ff7a
 

@@ -1,6 +1,6 @@
 {
   "name": "BOCeRouter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "zhangwenxue",
   "description": "A Router for BOCE P2C",
   "homepage": "https://github.com/guang1472006/BOCeRouter.git",
@@ -12,11 +12,25 @@
     "zhangwenxue": "734781246@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhangwenxue/BOCeRouter.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/guang1472006/BOCeRouter.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BOCeRouter/Classes/**/*"
+  "source_files": "BOCeRouter/Classes/*",
+  "subspecs": [
+    {
+      "name": "BOCeRouterLogger",
+      "source_files": "BOCeRouter/Classes/BOCeRouterLogger/*.{h,m}"
+    },
+    {
+      "name": "BOCeRouterNavigation",
+      "source_files": "BOCeRouter/Classes/BOCeRouterNavigation/*.{h,m}"
+    },
+    {
+      "name": "BOCeRouterRewrite",
+      "source_files": "BOCeRouter/BOCeRouterRewrite/*.{h,m}"
+    }
+  ]
 }

@@ -3,24 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0473346AF074B7ED6F1D273CA983B970 /* BOCeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D077442EEA8941582C1925A07FC0DD84 /* BOCeRouter.m */; };
-		17FDE10598C1D1A80E0ACAECEAA5DC91 /* BOCeRouterLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E0D80C02E4EA20D582615E962D483B /* BOCeRouterLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BFF5A83EE1400FADB7B73D1BA066AC7 /* BOCeRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5595A77B45D73876FDEB1B948D1A48 /* BOCeRouter-dummy.m */; };
+		0EA9ED9F08EE93E4750C58EDC9B2ED41 /* BOCeRouterLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2654B027314918FBEDEE89FF5001EF9A /* BOCeRouterLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D686BD6DB72C95FB48DAA01C5069069 /* Pods-BOCeRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9B7E65B98E6977FFB17BE2641B2B56 /* Pods-BOCeRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60ACA9663597F29B3D18F302A01DA587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7E3277D7BA83E6C6BFD302049CD91473 /* BOCeRouterRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F3517A9AC49DA6C0486DBDC4CCC14 /* BOCeRouterRewrite.m */; };
-		7F8661CAFC374FB81DF17450C3166155 /* BOCeRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5CBAD735B99DEFCE9ACDB8D76A01D5 /* BOCeRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86F00005DEF65D343FEDDF51120BCFE9 /* BOCeRouterRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = 643C246515053A09541C9A8FFF0E4CBF /* BOCeRouterRewrite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DF168D4D2715622FBC9457377881B9E /* BOCeRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A22F31F92E849968A641A2E50FB3331 /* BOCeRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64BEFE8B8C7D398F5A13AFB25393216F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A0D252C4C9B2D3D3F4C70229562E3B4 /* BOCeRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDFE7764A2A6168666F171E96DF5789 /* BOCeRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5D4C02650087CD6A330DA593CDA8E7 /* BOCeRouterNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C126726ECA93C2A2C8CBC2F93938E84 /* BOCeRouterNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8082DDC3DF545F592FE92926B9C20D /* BOCeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A19E824E6C27EB87D4DB25CCF15410D9 /* BOCeRouter.m */; };
+		982621894D537DD99BA1A1CCEEAF7DA7 /* BOCeRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EDDAB38EF57EA88175A95D7DE96B41 /* BOCeRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC24083E1144A1F405EEA3C3A575E43 /* Pods-BOCeRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A35EC063BA49C7FD203BC671B34A769 /* Pods-BOCeRouter-dummy.m */; };
-		AF3DA423EB75C17137CDF5261C74278F /* BOCeRouterNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 863925CB053906AEE9E685BDEA3863DF /* BOCeRouterNavigation.m */; };
-		C0B96214ACA1FA7885D3B91B0FC0F4C7 /* BOCeRouterLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 033BC14CE646B06303EF754EEE72E7B1 /* BOCeRouterLogger.m */; };
 		CE2D01BBAF2917639A1D3EA820312FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CE2F1B150E0327CC8EA27708C65AEE65 /* BOCeRouterNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FA06910EF1F95073C343678FA22C1B /* BOCeRouterNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF8ED8994A3F7D1218BCB22913A5BD7 /* BOCeRouterNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E203F60FBF5263C65B952CECEC261661 /* BOCeRouterNavigation.m */; };
+		FD00C7DA2967CE5A3BA311E70DAE0859 /* BOCeRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA3F8FCD24493EECBE3E5AA4E40313 /* BOCeRouter-dummy.m */; };
+		FE844FEEF7A3495F859F5D6AC4E07AFA /* BOCeRouterLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 26816AE55250C7E6983387934B47B472 /* BOCeRouterLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,42 +32,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033BC14CE646B06303EF754EEE72E7B1 /* BOCeRouterLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouterLogger.m; path = BOCeRouter/Classes/Logger/BOCeRouterLogger.m; sourceTree = "<group>"; };
 		0F55FBC77640BFE9A8C6FA3CDE5F7300 /* Pods-BOCeRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOCeRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		14EDDAB38EF57EA88175A95D7DE96B41 /* BOCeRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouter.h; path = BOCeRouter/Classes/BOCeRouter.h; sourceTree = "<group>"; };
 		1C9B7E65B98E6977FFB17BE2641B2B56 /* Pods-BOCeRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BOCeRouter-umbrella.h"; sourceTree = "<group>"; };
 		24AEACD5ED30470A43E975244CCE2D5E /* Pods_BOCeRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BOCeRouter.framework; path = "Pods-BOCeRouter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		289B6E875D3E941AD5D18E5D8C54465C /* BOCeRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BOCeRouter.modulemap; sourceTree = "<group>"; };
-		2A22F31F92E849968A641A2E50FB3331 /* BOCeRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCeRouter-umbrella.h"; sourceTree = "<group>"; };
-		31FA06910EF1F95073C343678FA22C1B /* BOCeRouterNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouterNavigation.h; path = BOCeRouter/Classes/Navigation/BOCeRouterNavigation.h; sourceTree = "<group>"; };
+		2654B027314918FBEDEE89FF5001EF9A /* BOCeRouterLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouterLogger.h; path = BOCeRouter/Classes/BOCeRouterLogger/BOCeRouterLogger.h; sourceTree = "<group>"; };
+		26816AE55250C7E6983387934B47B472 /* BOCeRouterLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouterLogger.m; path = BOCeRouter/Classes/BOCeRouterLogger/BOCeRouterLogger.m; sourceTree = "<group>"; };
+		474430E5DE7FB1B2ADBEE9DABD506CE8 /* BOCeRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCeRouter-prefix.pch"; sourceTree = "<group>"; };
 		48BDDC448DDBD6F19B50A1FFAF80B6B3 /* BOCeRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BOCeRouter.framework; path = BOCeRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A35EC063BA49C7FD203BC671B34A769 /* Pods-BOCeRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BOCeRouter-dummy.m"; sourceTree = "<group>"; };
-		643C246515053A09541C9A8FFF0E4CBF /* BOCeRouterRewrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouterRewrite.h; path = BOCeRouter/Classes/Rewrite/BOCeRouterRewrite.h; sourceTree = "<group>"; };
-		6B31C0776A5276ADDC26D07216B49BD2 /* BOCeRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCeRouter-prefix.pch"; sourceTree = "<group>"; };
-		6F398508F784AC35C3DB9DCECF4B5040 /* BOCeRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCeRouter.debug.xcconfig; sourceTree = "<group>"; };
+		6C126726ECA93C2A2C8CBC2F93938E84 /* BOCeRouterNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouterNavigation.h; path = BOCeRouter/Classes/BOCeRouterNavigation/BOCeRouterNavigation.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C9E812A519F8B5CE3737AAF17011D92 /* Pods-BOCeRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOCeRouter.release.xcconfig"; sourceTree = "<group>"; };
-		7E5595A77B45D73876FDEB1B948D1A48 /* BOCeRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOCeRouter-dummy.m"; sourceTree = "<group>"; };
 		7FBA79B4BCF5741E9ACB3715105AA557 /* Pods-BOCeRouter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BOCeRouter-frameworks.sh"; sourceTree = "<group>"; };
 		8432E71A44644CAB61B2BFBA80D9DC97 /* Pods-BOCeRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOCeRouter-Info.plist"; sourceTree = "<group>"; };
-		863925CB053906AEE9E685BDEA3863DF /* BOCeRouterNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouterNavigation.m; path = BOCeRouter/Classes/Navigation/BOCeRouterNavigation.m; sourceTree = "<group>"; };
-		954A53E181A8C152AC660821EBDBEF79 /* BOCeRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCeRouter.release.xcconfig; sourceTree = "<group>"; };
-		95E0D80C02E4EA20D582615E962D483B /* BOCeRouterLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouterLogger.h; path = BOCeRouter/Classes/Logger/BOCeRouterLogger.h; sourceTree = "<group>"; };
-		9A5CBAD735B99DEFCE9ACDB8D76A01D5 /* BOCeRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCeRouter.h; path = BOCeRouter/Classes/BOCeRouter.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBA3F8FCD24493EECBE3E5AA4E40313 /* BOCeRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOCeRouter-dummy.m"; sourceTree = "<group>"; };
+		A19E824E6C27EB87D4DB25CCF15410D9 /* BOCeRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouter.m; path = BOCeRouter/Classes/BOCeRouter.m; sourceTree = "<group>"; };
 		B58344C346C60338CF5FE6A27E65EA76 /* Pods-BOCeRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BOCeRouter.modulemap"; sourceTree = "<group>"; };
+		BB079803D1C8423AB9DCCA2097BD0334 /* BOCeRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCeRouter.release.xcconfig; sourceTree = "<group>"; };
 		BE6821D1BDA2B6CE9B84A3BC4A1B3738 /* Pods-BOCeRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOCeRouter-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC3F3517A9AC49DA6C0486DBDC4CCC14 /* BOCeRouterRewrite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouterRewrite.m; path = BOCeRouter/Classes/Rewrite/BOCeRouterRewrite.m; sourceTree = "<group>"; };
-		D077442EEA8941582C1925A07FC0DD84 /* BOCeRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouter.m; path = BOCeRouter/Classes/BOCeRouter.m; sourceTree = "<group>"; };
+		C8D4E75FB5B534E074728EACE06A71F6 /* BOCeRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BOCeRouter-Info.plist"; sourceTree = "<group>"; };
+		CBDFE7764A2A6168666F171E96DF5789 /* BOCeRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCeRouter-umbrella.h"; sourceTree = "<group>"; };
+		D679F02E53AAC66B0D031039AA55F3AC /* BOCeRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BOCeRouter.modulemap; sourceTree = "<group>"; };
+		DB7EEEC38AF7C76A1D241528F05BE12D /* BOCeRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCeRouter.debug.xcconfig; sourceTree = "<group>"; };
+		E203F60FBF5263C65B952CECEC261661 /* BOCeRouterNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCeRouterNavigation.m; path = BOCeRouter/Classes/BOCeRouterNavigation/BOCeRouterNavigation.m; sourceTree = "<group>"; };
 		EE9CE7AEE8AEAAFB0CDE6449A805E3CD /* Pods-BOCeRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BOCeRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F54557568EDB42323231F159375F7D52 /* BOCeRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BOCeRouter-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		136A671C9F4BFBBC39FC403FF4721BCD /* Frameworks */ = {
+		C271C164709D88B0625BA4FD8E94F761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60ACA9663597F29B3D18F302A01DA587 /* Foundation.framework in Frameworks */,
+				64BEFE8B8C7D398F5A13AFB25393216F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,14 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		341FB3B06B9D43EECAE8B77F51615CF0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				95B036C46C728AFB32F2C43028981EA8 /* BOCeRouter */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,19 +88,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E791ECEB249420AACA369512671079E /* Support Files */ = {
+		6CEC177E2B31F0A0E909594F1A2A2C7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				289B6E875D3E941AD5D18E5D8C54465C /* BOCeRouter.modulemap */,
-				7E5595A77B45D73876FDEB1B948D1A48 /* BOCeRouter-dummy.m */,
-				F54557568EDB42323231F159375F7D52 /* BOCeRouter-Info.plist */,
-				6B31C0776A5276ADDC26D07216B49BD2 /* BOCeRouter-prefix.pch */,
-				2A22F31F92E849968A641A2E50FB3331 /* BOCeRouter-umbrella.h */,
-				6F398508F784AC35C3DB9DCECF4B5040 /* BOCeRouter.debug.xcconfig */,
-				954A53E181A8C152AC660821EBDBEF79 /* BOCeRouter.release.xcconfig */,
+				EC31BB5808B652EBB5FFBFECF7B30E66 /* BOCeRouter */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BOCeRouter";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76D3BAA403C945262F37D45CC8AB112F /* BOCeRouterNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				6C126726ECA93C2A2C8CBC2F93938E84 /* BOCeRouterNavigation.h */,
+				E203F60FBF5263C65B952CECEC261661 /* BOCeRouterNavigation.m */,
+			);
+			name = BOCeRouterNavigation;
 			sourceTree = "<group>";
 		};
 		854DB8B3B1FA4F624235CC92DB5A1D5A /* Targets Support Files */ = {
@@ -123,21 +113,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		95B036C46C728AFB32F2C43028981EA8 /* BOCeRouter */ = {
+		AA2DE632A4E053B80BE026AC7F470154 /* BOCeRouterLogger */ = {
 			isa = PBXGroup;
 			children = (
-				9A5CBAD735B99DEFCE9ACDB8D76A01D5 /* BOCeRouter.h */,
-				D077442EEA8941582C1925A07FC0DD84 /* BOCeRouter.m */,
-				95E0D80C02E4EA20D582615E962D483B /* BOCeRouterLogger.h */,
-				033BC14CE646B06303EF754EEE72E7B1 /* BOCeRouterLogger.m */,
-				31FA06910EF1F95073C343678FA22C1B /* BOCeRouterNavigation.h */,
-				863925CB053906AEE9E685BDEA3863DF /* BOCeRouterNavigation.m */,
-				643C246515053A09541C9A8FFF0E4CBF /* BOCeRouterRewrite.h */,
-				CC3F3517A9AC49DA6C0486DBDC4CCC14 /* BOCeRouterRewrite.m */,
-				5E791ECEB249420AACA369512671079E /* Support Files */,
+				2654B027314918FBEDEE89FF5001EF9A /* BOCeRouterLogger.h */,
+				26816AE55250C7E6983387934B47B472 /* BOCeRouterLogger.m */,
 			);
-			name = BOCeRouter;
-			path = BOCeRouter;
+			name = BOCeRouterLogger;
+			sourceTree = "<group>";
+		};
+		AF0B3BF3950733A4764216F9247E6B34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D679F02E53AAC66B0D031039AA55F3AC /* BOCeRouter.modulemap */,
+				9EBA3F8FCD24493EECBE3E5AA4E40313 /* BOCeRouter-dummy.m */,
+				C8D4E75FB5B534E074728EACE06A71F6 /* BOCeRouter-Info.plist */,
+				474430E5DE7FB1B2ADBEE9DABD506CE8 /* BOCeRouter-prefix.pch */,
+				CBDFE7764A2A6168666F171E96DF5789 /* BOCeRouter-umbrella.h */,
+				DB7EEEC38AF7C76A1D241528F05BE12D /* BOCeRouter.debug.xcconfig */,
+				BB079803D1C8423AB9DCCA2097BD0334 /* BOCeRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BOCeRouter";
 			sourceTree = "<group>";
 		};
 		C04E54B8758F419807A50F1410C84ABB /* Products */ = {
@@ -154,7 +151,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				341FB3B06B9D43EECAE8B77F51615CF0 /* Pods */,
+				6CEC177E2B31F0A0E909594F1A2A2C7E /* Pods */,
 				C04E54B8758F419807A50F1410C84ABB /* Products */,
 				854DB8B3B1FA4F624235CC92DB5A1D5A /* Targets Support Files */,
 			);
@@ -185,6 +182,19 @@
 			path = "Target Support Files/Pods-BOCeRouter";
 			sourceTree = "<group>";
 		};
+		EC31BB5808B652EBB5FFBFECF7B30E66 /* BOCeRouter */ = {
+			isa = PBXGroup;
+			children = (
+				14EDDAB38EF57EA88175A95D7DE96B41 /* BOCeRouter.h */,
+				A19E824E6C27EB87D4DB25CCF15410D9 /* BOCeRouter.m */,
+				AA2DE632A4E053B80BE026AC7F470154 /* BOCeRouterLogger */,
+				76D3BAA403C945262F37D45CC8AB112F /* BOCeRouterNavigation */,
+				AF0B3BF3950733A4764216F9247E6B34 /* Support Files */,
+			);
+			name = BOCeRouter;
+			path = BOCeRouter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -196,15 +206,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49AAA88CA5B06947C4058AF81FA16040 /* Headers */ = {
+		65910101F943990FC80C9C68AF34D003 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF168D4D2715622FBC9457377881B9E /* BOCeRouter-umbrella.h in Headers */,
-				7F8661CAFC374FB81DF17450C3166155 /* BOCeRouter.h in Headers */,
-				17FDE10598C1D1A80E0ACAECEAA5DC91 /* BOCeRouterLogger.h in Headers */,
-				CE2F1B150E0327CC8EA27708C65AEE65 /* BOCeRouterNavigation.h in Headers */,
-				86F00005DEF65D343FEDDF51120BCFE9 /* BOCeRouterRewrite.h in Headers */,
+				6A0D252C4C9B2D3D3F4C70229562E3B4 /* BOCeRouter-umbrella.h in Headers */,
+				982621894D537DD99BA1A1CCEEAF7DA7 /* BOCeRouter.h in Headers */,
+				0EA9ED9F08EE93E4750C58EDC9B2ED41 /* BOCeRouterLogger.h in Headers */,
+				7F5D4C02650087CD6A330DA593CDA8E7 /* BOCeRouterNavigation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +241,12 @@
 		};
 		5CC40D9C360ECB26618928903EA7A960 /* BOCeRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46BC5C3BE919434B5E86ECF21330C950 /* Build configuration list for PBXNativeTarget "BOCeRouter" */;
+			buildConfigurationList = AE04161A97D378C7A71C82F148501B3C /* Build configuration list for PBXNativeTarget "BOCeRouter" */;
 			buildPhases = (
-				49AAA88CA5B06947C4058AF81FA16040 /* Headers */,
-				0A95636F95F55702AC353464D42EFDC0 /* Sources */,
-				136A671C9F4BFBBC39FC403FF4721BCD /* Frameworks */,
-				61D1A51FB420190FFA76084F7161CD03 /* Resources */,
+				65910101F943990FC80C9C68AF34D003 /* Headers */,
+				776892935CD47BEF23CBE4C1C034518F /* Sources */,
+				C271C164709D88B0625BA4FD8E94F761 /* Frameworks */,
+				187771AC67E5E00A130AA17F772F3FA5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -258,7 +267,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -284,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61D1A51FB420190FFA76084F7161CD03 /* Resources */ = {
+		187771AC67E5E00A130AA17F772F3FA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,15 +303,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A95636F95F55702AC353464D42EFDC0 /* Sources */ = {
+		776892935CD47BEF23CBE4C1C034518F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFF5A83EE1400FADB7B73D1BA066AC7 /* BOCeRouter-dummy.m in Sources */,
-				0473346AF074B7ED6F1D273CA983B970 /* BOCeRouter.m in Sources */,
-				C0B96214ACA1FA7885D3B91B0FC0F4C7 /* BOCeRouterLogger.m in Sources */,
-				AF3DA423EB75C17137CDF5261C74278F /* BOCeRouterNavigation.m in Sources */,
-				7E3277D7BA83E6C6BFD302049CD91473 /* BOCeRouterRewrite.m in Sources */,
+				FD00C7DA2967CE5A3BA311E70DAE0859 /* BOCeRouter-dummy.m in Sources */,
+				8A8082DDC3DF545F592FE92926B9C20D /* BOCeRouter.m in Sources */,
+				FE844FEEF7A3495F859F5D6AC4E07AFA /* BOCeRouterLogger.m in Sources */,
+				EFF8ED8994A3F7D1218BCB22913A5BD7 /* BOCeRouterNavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,40 +334,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09CFEAF3C0A5492650308A87F34EBB19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 954A53E181A8C152AC660821EBDBEF79 /* BOCeRouter.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BOCeRouter/BOCeRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BOCeRouter/BOCeRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BOCeRouter/BOCeRouter.modulemap";
-				PRODUCT_MODULE_NAME = BOCeRouter;
-				PRODUCT_NAME = BOCeRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1C10A939230167EA8F106502C23BAEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F55FBC77640BFE9A8C6FA3CDE5F7300 /* Pods-BOCeRouter.debug.xcconfig */;
@@ -462,6 +436,73 @@
 			};
 			name = Debug;
 		};
+		4BC7CD0E5A19CD80B139B294408C0DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7EEEC38AF7C76A1D241528F05BE12D /* BOCeRouter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOCeRouter/BOCeRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOCeRouter/BOCeRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BOCeRouter/BOCeRouter.modulemap";
+				PRODUCT_MODULE_NAME = BOCeRouter;
+				PRODUCT_NAME = BOCeRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7747E6472C5C9C26320616222D5A37CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB079803D1C8423AB9DCCA2097BD0334 /* BOCeRouter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOCeRouter/BOCeRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOCeRouter/BOCeRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BOCeRouter/BOCeRouter.modulemap";
+				PRODUCT_MODULE_NAME = BOCeRouter;
+				PRODUCT_NAME = BOCeRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9905708F502E97299A6FDC295318DCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C9E812A519F8B5CE3737AAF17011D92 /* Pods-BOCeRouter.release.xcconfig */;
@@ -498,39 +539,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B23438A38791A59B04DD17A71A501F3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F398508F784AC35C3DB9DCECF4B5040 /* BOCeRouter.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BOCeRouter/BOCeRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BOCeRouter/BOCeRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BOCeRouter/BOCeRouter.modulemap";
-				PRODUCT_MODULE_NAME = BOCeRouter;
-				PRODUCT_NAME = BOCeRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -597,15 +605,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46BC5C3BE919434B5E86ECF21330C950 /* Build configuration list for PBXNativeTarget "BOCeRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B23438A38791A59B04DD17A71A501F3D /* Debug */,
-				09CFEAF3C0A5492650308A87F34EBB19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -620,6 +619,15 @@
 			buildConfigurations = (
 				1C10A939230167EA8F106502C23BAEB5 /* Debug */,
 				9905708F502E97299A6FDC295318DCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04161A97D378C7A71C82F148501B3C /* Build configuration list for PBXNativeTarget "BOCeRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7CD0E5A19CD80B139B294408C0DDD /* Debug */,
+				7747E6472C5C9C26320616222D5A37CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
