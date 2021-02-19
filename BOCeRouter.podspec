@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   
   # rewrite
   s.subspec 'BOCeRouterRewrite' do | rewrite |
-  rewrite.source_files = 'BOCeRouter/BOCeRouterRewrite/*.{h,m}'
+  rewrite.source_files = 'BOCeRouter/Classes/BOCeRouterRewrite/*.{h,m}'
   end
   
   
