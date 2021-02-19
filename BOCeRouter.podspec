@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BOCeRouter'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'zhangwenxue'
 
 # This description is used to generate tags and improve search results.
@@ -37,4 +37,23 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # logger
+  s.subspec 'BOCeRouterLogger' do | logger |
+  logger.source_files = 'BOCeRouter/Classes/BOCeRouterLogger/*.{h,m}'
+  end
+  
+  # Navigation
+  s.subspec 'BOCeRouterNavigation' do | navigation |
+  navigation.source_files = 'BOCeRouter/Classes/BOCeRouterNavigation/*.{h,m}'
+  end
+  
+  # rewrite
+  s.subspec 'BOCeRouterRewrite' do | rewrite |
+  rewrite.source_files = 'BOCeRouter/BOCeRouterRewrite/*.{h,m}'
+  end
+  
+  
+  
+  
 end
