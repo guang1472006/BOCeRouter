@@ -13,6 +13,7 @@
 #import "BOCeRouter.h"
 #import "BOCeRouterLogger.h"
 #import "BOCeRouterNavigation.h"
+#import "BOCeRouterRewrite.h"
 
 FOUNDATION_EXPORT double BOCeRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char BOCeRouterVersionString[];

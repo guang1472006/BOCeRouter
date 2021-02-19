@@ -30,7 +30,7 @@
     },
     {
       "name": "BOCeRouterRewrite",
-      "source_files": "BOCeRouter/BOCeRouterRewrite/*.{h,m}"
+      "source_files": "BOCeRouter/Classes/BOCeRouterRewrite/*.{h,m}"
     }
   ]
 }
